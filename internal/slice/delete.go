@@ -1,7 +1,7 @@
 package slice
 
 import (
-	"GenericTool/err"
+	"github.com/sjdzcx/GenericTool/internal/err"
 )
 
 // Delete 删除指定下标的元素
