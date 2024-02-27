@@ -1,13 +1,13 @@
 package slice
 
 import (
-	"errors"
+	"GenericTool/err"
 )
 
 // Add 在index 位置出添加元素
 func Add[T any](src []T, element T, index int) ([]T, error) {
 	if index > len(src) || index < 0 {
-		return src, errors.New("index error")
+		return src, err.NewErrIndexOutOfRange(len(src), index)
 	}
 	r1 := make([]T, 0, len(src)+1)
 	for i := 0; i < index; i++ {
