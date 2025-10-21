@@ -20,7 +20,7 @@ func TestIntersectSet(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			got := intersectSet(tt.a, tt.b)
+			got := IntersectSet(tt.a, tt.b)
 			gotMap := make(map[int]struct{})
 			for _, v := range got {
 				gotMap[v] = struct{}{}
