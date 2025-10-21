@@ -45,7 +45,7 @@ func main() {
 	//} else {
 	//	fmt.Printf("%+v", t)
 	//}
-	test_union()
+	//test_union()
 	//ints, i, err := slice.Delete(t, 2)
 	//println(i)
 
@@ -55,15 +55,8 @@ func main() {
 		}
 
 		fmt.Printf("%+v", element)*/
+	d := make(map[int]string, 4)
 
-	//comparable()
-	//测试结构体
-	//u := make([]User, 0, 3)
-	//u = append(u, User{Name: "hello3", age: 1})
-	//u = append(u, User{Name: "hello2", age: 2})
-	//u = append(u, User{Name: "hello1", age: 3})
-	//element, err := slice.DeleteElement(u, User{Name: "hello2", age: 2})
-	//fmt.Printf("%+v", element)
 	s := map[int]int{1: 2}
 	delete(s, 3)
 
