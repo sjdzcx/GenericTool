@@ -64,5 +64,7 @@ func main() {
 	//u = append(u, User{Name: "hello1", age: 3})
 	//element, err := slice.DeleteElement(u, User{Name: "hello2", age: 2})
 	//fmt.Printf("%+v", element)
+	s := map[int]int{1: 2}
+	delete(s, 3)
 
 }
