@@ -18,6 +18,6 @@ func Add[T any](src []T, element T, index int) ([]T, error) {
 		r1 = append(r1, src[i])
 	}
 	src = r1
-	//src = append(r1, src[index:]...)
+
 	return src, nil
 }
