@@ -22,7 +22,7 @@ func FindFunc[T any](s []T, f func(T) bool) (int, bool) {
 
 // FindFuncAll 寻找所有满足条件的,如果存在则返回切片
 func FindFuncAll[T any](s []T, f func(T) bool) ([]T, bool) {
-	result := make([]T, 5)
+	result := make([]T, 0, 8)
 	for _, v := range s {
 		if f(v) {
 			result = append(result, v)

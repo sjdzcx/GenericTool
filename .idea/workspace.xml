@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc33fde9-529f-4993-b152-3e4c6ec6e4bf" name="Changes" comment="完成 添加删除 包含 以及 最大最小值的方法">
-      <change afterPath="$PROJECT_DIR$/slice/diff.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slice/diff_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slice/find.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slice/utils.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slice/find.go" beforeDir="false" afterPath="$PROJECT_DIR$/slice/find.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +51,12 @@
   "keyToString": {
     "DefaultGoTemplateProperty": "Go File",
     "Go Test.TestAdd in github.com/sjdzcx/GenericTool/slice.executor": "Run",
+    "Go Test.TestContains in github.com/sjdzcx/GenericTool/slice.executor": "Run",
     "Go Test.TestDelete in github.com/sjdzcx/GenericTool/slice.executor": "Run",
     "Go Test.TestDeleteFilter in github.com/sjdzcx/GenericTool/slice.executor": "Run",
     "Go Test.TestDiffSet in github.com/sjdzcx/GenericTool/slice.executor": "Run",
     "Go Test.TestMax in github.com/sjdzcx/GenericTool/slice.executor": "Run",
+    "Go Test.go test github.com/sjdzcx/GenericTool/slice.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -86,11 +86,11 @@
       <window_info anchor="bottom" id="TODO" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" show_stripe_button="false" />
       <window_info anchor="bottom" id="Find" />
-      <window_info active="true" anchor="bottom" id="Run" order="0" visible="true" weight="0.15786241" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.47481573" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Problems" order="2" />
       <window_info anchor="bottom" id="Problems View" order="3" weight="0.55712533" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.5746951" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.47481573" />
       <window_info anchor="bottom" id="GitHub Copilot MCP Log" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Services" order="5" />
       <window_info anchor="right" id="Endpoints" show_stripe_button="false" />
